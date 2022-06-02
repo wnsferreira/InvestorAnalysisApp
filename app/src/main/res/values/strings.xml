@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">InvestorAnalysisApplication</string>
+    <string name="btn_analyze">Iniciar análise</string>
+    <string name="info_analysis">Analisador de Perfil de Investidores</string>
+    <string name="info_banco_paulista">Crédito para o Grupo Paulista: https://www.bancopaulista.com.br/Arquivos/QuestionarioAPI.pdf</string>
+    <string name="name_input_hint">Insira seu nome</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--    q1 -->
+    <string name="q1">1. Por quanto tempo você pretende deixar seu dinheiro investido?</string>
+    <string name="q1_alternative_a">Menos de 6 meses</string>
+    <string name="q1_alternative_b">Entre 6 meses e 1 ano</string>
+    <string name="q1_alternative_c">Entre 1 ano e 3 anos</string>
+    <string name="q1_alternative_d">Acima de 3 anos</string>
+    <string name="avancar_btn">Avançar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/questionario_navigation"
+    app:startDestination="@id/q1_Fragment">
+
+    <fragment
+        android:id="@+id/q1_Fragment"
+        android:name="com.example.investoranalysisapplication.questionnaire.Q1_Fragment"
+        android:label="fragment_q1_form"
+        tools:layout="@layout/fragment_q1_form" />
+</navigation>
