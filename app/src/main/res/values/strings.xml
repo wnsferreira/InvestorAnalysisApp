@@ -4,14 +4,92 @@
     <string name="info_analysis">Analisador de Perfil de Investidores</string>
     <string name="info_banco_paulista">Crédito para o Grupo Paulista: https://www.bancopaulista.com.br/Arquivos/QuestionarioAPI.pdf</string>
     <string name="name_input_hint">Insira seu nome</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <!--    q1 -->
     <string name="q1">1. Por quanto tempo você pretende deixar seu dinheiro investido?</string>
     <string name="q1_alternative_a">Menos de 6 meses</string>
     <string name="q1_alternative_b">Entre 6 meses e 1 ano</string>
     <string name="q1_alternative_c">Entre 1 ano e 3 anos</string>
     <string name="q1_alternative_d">Acima de 3 anos</string>
-    <string name="avancar_btn">Avançar</string>
+    <string name="avancar_btn_q1_text">Avançar</string>
+
+    <!--     q2-->
+    <string name="q2">2. Qual o objetivo desse investimento?</string>
+    <string name="q2_alternative_a">Preservação do capital para não perder valor ao longo do tempo, assumindo baixos riscos de perdas</string>
+    <string name="q2_alternative_b">Aumento gradual do capital ao longo do tempo, assumindo riscos moderados</string>
+    <string name="q2_alternative_c">Aumento do capital acima da taxa de retorno média do mercado, mesmo que isso implique assumir riscos de perdas elevadas</string>
+    <string name="q2_alternative_d">Obter no curto prazo retornos elevados e significativamente acima da taxa de retorno média do mercado, assumindo riscos elevados</string>
+    <string name="avancar_btn_q2_text">Avançar</string>
+
+    <!--    q3-->
+    <string name="q3">3. Qual das alternativas melhor classifica sua formação e experiência com o mercado Financeiro?</string>
+    <string name="q3_alternative_a">Não possuo formação acadêmica ou conhecimento do mercado Financeiro</string>
+    <string name="q3_alternative_b">Possuo formação acadêmica na área Financeira, mas não tenho experiência com o mercado Financeiro</string>
+    <string name="q3_alternative_c">Possuo formação acadêmica em outra área, mas possuo conhecimento do mercado Financeiro</string>
+    <string name="q3_alternative_d">Possuo formação acadêmica na área Financeira ou pleno conhecimento do mercado Financeiro</string>
+
+    <!--    q4-->
+    <string name="q4">
+        4. Considerando seus rendimentos regulares, qual a porcentagem você pretende reservar para aplicações Financeiras?</string>
+    <string name="q4_alternative_a">No máximo 25% </string>
+    <string name="q4_alternative_b">Entre 25,01 e 50%</string>
+    <string name="q4_alternative_c">Acima de 50%</string>
+
+    <!--    q5-->
+    <string name="q5">
+        5. Caso as suas aplicações sofressem uma queda superior a 30%, o que você faria? </string>
+    <string name="q5_alternative_a">Resgataria toda a aplicação e aplicaria na poupança</string>
+    <string name="q5_alternative_b">Manteria aplicação aguardando uma melhora do mercado</string>
+    <string name="q5_alternative_c">Aumentaria a aplicação para aproveitar as oportunidades do mercado</string>
+
+    <!--    q6-->
+    <string name="q6">
+        6. Como está distribuído o seu patrimônio? </string>
+    <string name="q6_alternative_a">Meu patrimônio não está aplicado ou está todo aplicado em renda fixa e/ou
+imóveis </string>
+    <string name="q6_alternative_b">Menos de 25% em renda variável e o restante em renda fixa e/ou imóveis </string>
+    <string name="q6_alternative_c">Entre 25,01 e 50% aplicado em renda variável e o restante em renda fixa
+e/ou imóveis</string>
+    <string name="q6_alternative_d">Acima de 50% em renda variável </string>
+
+    <!--    q7-->
+    <string name="q7">
+        7. Em relação as aplicações e rendimentos, em qual dessas situações você
+ se enquadra?  </string>
+    <string name="q7_alternative_a">Conto com o rendimento dessas aplicações para complementar minha
+renda mensal  </string>
+    <string name="q7_alternative_b">Eventualmente posso resgatar parte das aplicações para fazer frente aos
+meus gastos. Contudo, não tenho intenção de resgatar no curto prazo e
+pretendo fazer aplicações regulares </string>
+    <string name="q7_alternative_c">Não tenho intenção de resgatar no curto prazo, mas não pretendo realizar
+novas aplicações</string>
+    <string name="q7_alternative_d">Não tenho intenção de resgatar no curto prazo e ainda pretendo fazer
+aplicações regulares </string>
+
+    <!--    q8-->
+    <string name="q8">
+        8. Qual sua faixa de renda mensal média? </string>
+    <string name="q8_alternative_a">Até R$ 1.000</string>
+    <string name="q8_alternative_b">De R$ 1.001 até R$ 5.000 </string>
+    <string name="q8_alternative_c">De R$ 5.001 até R$ 10.000 </string>
+    <string name="q8_alternative_d">Acima de R$ 10.000</string>
+
+    <!--    q9-->
+    <string name="q9">
+        9. Qual o valor aproximado do seu patrimônio? </string>
+    <string name="q9_alternative_a">Até R$ 10.000</string>
+    <string name="q9_alternative_b">De R$ 10.001 até R$ 100.000 </string>
+    <string name="q9_alternative_c">De R$ 100.001 até R$ 500.000</string>
+    <string name="q9_alternative_d">De R$ 500.001 até R$ 1.000.000</string>
+    <string name="q9_alternative_e">Acima de R$ 1.000.001 </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="avancar_btn_q3_text">Avançar</string>
+    <string name="avancar_btn_q4_text">Avançar</string>
+    <string name="avancar_btn_q5_text">Avançar</string>
+    <string name="avancar_btn_q6_text">avançar</string>
+    <string name="avancar_btn_q7_text">Avançar</string>
+    <string name="avancar_btn_q8_text">Avançar</string>
+    <string name="avancar_btn_q9_text">Avançar</string>
+
 </resources>

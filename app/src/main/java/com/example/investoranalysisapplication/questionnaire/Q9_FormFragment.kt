@@ -5,12 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.findNavController
 import com.example.investoranalysisapplication.R
-import kotlinx.android.synthetic.main.fragment_q1_form.*
 
-
-class Q1_Fragment : Fragment() {
+class Q9_FormFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -18,17 +15,10 @@ class Q1_Fragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_q1_form, container, false)
+        return inflater.inflate(R.layout.fragment_q9__form, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        setListeners()
-    }
-
-    private fun setListeners(){
-        avancar_btn_q1.setOnClickListener{
-            findNavController().navigate(R.id.q2_FormFragment)
-        }
     }
 }
