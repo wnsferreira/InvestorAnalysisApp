@@ -47,7 +47,12 @@
         tools:layout="@layout/fragment_q8__form" />
     <fragment
         android:id="@+id/q9_FormFragment"
-        android:name="com.example.investoranalysisapplication.questionnaire.Q9_FormFragment"
+        android:name="com.example.investoranalysisapplication.questionnaire.Q9FormFragment"
         android:label="fragment_q9__form"
         tools:layout="@layout/fragment_q9__form" />
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.investoranalysisapplication.questionnaire.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
 </navigation>

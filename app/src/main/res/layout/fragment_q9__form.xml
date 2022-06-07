@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".questionnaire.Q9_FormFragment">
+    tools:context=".questionnaire.Q9FormFragment">
 
     <TextView
         android:id="@+id/textView9"
@@ -49,10 +49,11 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/avancar_btn_q9"
+        android:id="@+id/result_btn_q9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:onClick="a"
         android:text="@string/avancar_btn_q9_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup9"
