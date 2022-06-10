@@ -37,7 +37,7 @@ class Q2_FormFragment : Fragment() {
 
     private fun setListeners(){
 
-        radioGroup = view?.findViewById(R.id.radioGroup)
+        radioGroup = view?.findViewById(R.id.radioGroup2)
         button = view?.findViewById(R.id.avancar_btn_q2)!!
 
         avancar_btn_q2.setOnClickListener{

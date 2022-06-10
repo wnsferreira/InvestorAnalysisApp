@@ -23,26 +23,36 @@
         android:layout_marginTop="48dp">
 
         <RadioButton
+            android:id="@+id/radioButton_q9_a"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q9_alternative_a" />
 
         <RadioButton
+            android:id="@+id/radioButton_q9_b"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q9_alternative_b" />
 
         <RadioButton
+            android:id="@+id/radioButton_q9_c"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q9_alternative_c" />
 
         <RadioButton
+            android:id="@+id/radioButton_q9_d"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q9_alternative_d" />
 
         <RadioButton
+            android:id="@+id/radioButton_q9_e"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q9_alternative_e" />

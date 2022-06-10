@@ -25,21 +25,29 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8">
 
         <RadioButton
+            android:id="@+id/radioButton_q7_a"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q7_alternative_a" />
 
         <RadioButton
+            android:id="@+id/radioButton_q7_b"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q7_alternative_b" />
 
         <RadioButton
+            android:id="@+id/radioButton_q7_c"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q7_alternative_c" />
 
         <RadioButton
+            android:id="@+id/radioButton_q7_d"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q7_alternative_d" />

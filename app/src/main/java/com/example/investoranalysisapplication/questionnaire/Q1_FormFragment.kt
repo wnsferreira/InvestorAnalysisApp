@@ -10,15 +10,12 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
-import com.example.investoranalysisapplication.QuizViewModel
+import com.example.investoranalysisapplication.MainActivityViewModel
 import com.example.investoranalysisapplication.R
-import kotlinx.android.synthetic.main.fragment_q1_form.*
-import kotlinx.android.synthetic.main.fragment_q1_form.view.*
-import kotlinx.android.synthetic.main.fragment_q2__form.*
 
 class Q1_Fragment : Fragment() {
 
-    private lateinit var quizViewModel: QuizViewModel
+    private lateinit var quizViewModel: MainActivityViewModel
 
     var radioGroup: RadioGroup? = null
     lateinit var radioButton: RadioButton
@@ -41,7 +38,7 @@ class Q1_Fragment : Fragment() {
 
     private fun setListeners(){
 
-        radioGroup = view?.findViewById(R.id.radioGroup2)
+        radioGroup = view?.findViewById(R.id.radioGroup1)
         button = view?.findViewById(R.id.avancar_btn_q1)!!
 
         button.setOnClickListener{

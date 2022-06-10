@@ -24,21 +24,29 @@
         tools:layout_editor_absoluteX="-10dp">
 
         <RadioButton
+            android:id="@+id/radioButton_q8_a"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q8_alternative_a" />
 
         <RadioButton
+            android:id="@+id/radioButton_q8_b"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q8_alternative_b" />
 
         <RadioButton
+            android:id="@+id/radioButton_q8_c"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q8_alternative_c" />
 
         <RadioButton
+            android:id="@+id/radioButton_q8_d"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q8_alternative_d" />

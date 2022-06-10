@@ -23,18 +23,26 @@
         android:layout_marginTop="48dp">
 
         <RadioButton
+            android:id="@+id/radioButton_q6_a"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q6_alternative_a" />
         <RadioButton
+            android:id="@+id/radioButton_q6_b"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q6_alternative_b" />
         <RadioButton
+            android:id="@+id/radioButton_q6_c"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q6_alternative_c" />
         <RadioButton
+            android:id="@+id/radioButton_q6_d"
+            android:onClick="onRadioButtonClicked"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/q6_alternative_d" />
