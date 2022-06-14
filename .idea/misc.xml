@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Workspace developer/Kotlin/InvestorAnalysisApplication/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Workspace developer/Kotlin/InvestorAnalysisApplication/app/src/main/res/layout/activity_quiz.xml" value="0.20416666666666666" />
+        <entry key="..\:/Workspace developer/Kotlin/InvestorAnalysisApplication/app/src/main/res/layout/activity_quiz.xml" value="0.25" />
         <entry key="..\:/Workspace developer/Kotlin/InvestorAnalysisApplication/app/src/main/res/layout/activity_result.xml" value="0.25" />
+        <entry key="..\:/Workspace developer/Kotlin/InvestorAnalysisApplication/app/src/main/res/layout/activity_resultactivity.xml" value="0.1358695652173913" />
+        <entry key="..\:/Workspace developer/Kotlin/InvestorAnalysisApplication/app/src/main/res/layout/activity_resultctivity.xml" value="0.25" />
         <entry key="..\:/Workspace developer/Kotlin/InvestorAnalysisApplication/app/src/main/res/layout/fragment_q1_form.xml" value="0.25" />
         <entry key="..\:/Workspace developer/Kotlin/InvestorAnalysisApplication/app/src/main/res/layout/fragment_q2__form.xml" value="0.25" />
         <entry key="..\:/Workspace developer/Kotlin/InvestorAnalysisApplication/app/src/main/res/layout/fragment_q3__form.xml" value="0.22" />

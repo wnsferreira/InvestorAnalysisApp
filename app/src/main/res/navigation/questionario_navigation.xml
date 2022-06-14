@@ -9,50 +9,86 @@
         android:id="@+id/q1_Fragment"
         android:name="com.example.investoranalysisapplication.questionnaire.Q1_Fragment"
         android:label="fragment_q1_form"
-        tools:layout="@layout/fragment_q1_form" />
+        tools:layout="@layout/fragment_q1_form" >
+        <action
+            android:id="@+id/action_q1_Fragment_to_q2_FormFragment"
+            app:destination="@id/q2_FormFragment" />
+    </fragment>
     <fragment
         android:id="@+id/q2_FormFragment"
         android:name="com.example.investoranalysisapplication.questionnaire.Q2_FormFragment"
         android:label="fragment_q2__form"
-        tools:layout="@layout/fragment_q2__form" />
+        tools:layout="@layout/fragment_q2__form" >
+        <action
+            android:id="@+id/action_q2_FormFragment_to_q3_FormFragment"
+            app:destination="@id/q3_FormFragment" />
+    </fragment>
     <fragment
         android:id="@+id/q3_FormFragment"
         android:name="com.example.investoranalysisapplication.questionnaire.Q3_FormFragment"
         android:label="fragment_q3__form"
-        tools:layout="@layout/fragment_q3__form" />
+        tools:layout="@layout/fragment_q3__form" >
+        <action
+            android:id="@+id/action_q3_FormFragment_to_q4_FormFragment"
+            app:destination="@id/q4_FormFragment" />
+    </fragment>
     <fragment
         android:id="@+id/q4_FormFragment"
         android:name="com.example.investoranalysisapplication.questionnaire.Q4_FormFragment"
         android:label="fragment_q4__form"
-        tools:layout="@layout/fragment_q4__form" />
+        tools:layout="@layout/fragment_q4__form" >
+        <action
+            android:id="@+id/action_q4_FormFragment_to_q5_FormFragment"
+            app:destination="@id/q5_FormFragment" />
+    </fragment>
     <fragment
         android:id="@+id/q5_FormFragment"
         android:name="com.example.investoranalysisapplication.questionnaire.Q5_FormFragment"
         android:label="fragment_q5__form"
-        tools:layout="@layout/fragment_q5__form" />
+        tools:layout="@layout/fragment_q5__form" >
+        <action
+            android:id="@+id/action_q5_FormFragment_to_q6_FormFragment"
+            app:destination="@id/q6_FormFragment" />
+    </fragment>
     <fragment
         android:id="@+id/q6_FormFragment"
         android:name="com.example.investoranalysisapplication.questionnaire.Q6_FormFragment"
         android:label="fragment_q6__form"
-        tools:layout="@layout/fragment_q6__form" />
+        tools:layout="@layout/fragment_q6__form" >
+        <action
+            android:id="@+id/action_q6_FormFragment_to_q7_FormFragment"
+            app:destination="@id/q7_FormFragment" />
+    </fragment>
     <fragment
         android:id="@+id/q7_FormFragment"
         android:name="com.example.investoranalysisapplication.questionnaire.Q7_FormFragment"
         android:label="fragment_q7__form"
-        tools:layout="@layout/fragment_q7__form" />
+        tools:layout="@layout/fragment_q7__form" >
+        <action
+            android:id="@+id/action_q7_FormFragment_to_q8_FormFragment"
+            app:destination="@id/q8_FormFragment" />
+    </fragment>
     <fragment
         android:id="@+id/q8_FormFragment"
         android:name="com.example.investoranalysisapplication.questionnaire.Q8_FormFragment"
         android:label="fragment_q8__form"
-        tools:layout="@layout/fragment_q8__form" />
+        tools:layout="@layout/fragment_q8__form" >
+        <action
+            android:id="@+id/action_q8_FormFragment_to_q9_FormFragment"
+            app:destination="@id/q9_FormFragment" />
+    </fragment>
     <fragment
         android:id="@+id/q9_FormFragment"
         android:name="com.example.investoranalysisapplication.questionnaire.Q9FormFragment"
         android:label="fragment_q9__form"
-        tools:layout="@layout/fragment_q9__form" />
-    <fragment
-        android:id="@+id/resultFragment"
-        android:name="com.example.investoranalysisapplication.questionnaire.ResultFragment"
-        android:label="fragment_result"
-        tools:layout="@layout/fragment_result" />
+        tools:layout="@layout/fragment_q9__form" >
+        <action
+            android:id="@+id/action_q9_FormFragment_to_resultActivity"
+            app:destination="@id/resultActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/resultActivity"
+        android:name="com.example.investoranalysisapplication.ResultActivity"
+        android:label="activity_result"
+        tools:layout="@layout/activity_result" />
 </navigation>

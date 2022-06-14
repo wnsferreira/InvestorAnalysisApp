@@ -1,12 +1,19 @@
 package com.example.investoranalysisapplication.questionnaire
 
+import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.AttributeSet
 import android.view.View
 import android.widget.RadioButton
 import com.example.investoranalysisapplication.NAME_EXTRA
 import com.example.investoranalysisapplication.R
+import com.example.investoranalysisapplication.ResultActivity
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_quiz.*
 import kotlinx.android.synthetic.main.fragment_q9__form.*
+import kotlinx.coroutines.flow.callbackFlow
 
 class QuizActivity : AppCompatActivity() {
 
@@ -14,9 +21,15 @@ class QuizActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
 
-        intent.getStringExtra(NAME_EXTRA)
+        var name = intent.getStringExtra("name")
+
+        name_textView_Frag_id.text = name
+
+
+
 
     }
+
 
     private val list = mutableListOf<Int>()
 

@@ -12,12 +12,12 @@ import android.widget.RadioGroup
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
-import com.example.investoranalysisapplication.MainActivityViewModel
+import com.example.investoranalysisapplication.MainViewModel
 import com.example.investoranalysisapplication.NAME_EXTRA
 import com.example.investoranalysisapplication.R
+import com.example.investoranalysisapplication.ResultActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_q9__form.*
-import kotlinx.android.synthetic.main.fragment_result.*
 
 class Q9FormFragment : Fragment() {
 
@@ -25,7 +25,7 @@ class Q9FormFragment : Fragment() {
     lateinit var radioButton: RadioButton
     private lateinit var button: Button
 
-    private lateinit var mainActivityViewModel: MainActivityViewModel
+    private lateinit var viewModel: MainViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -37,16 +37,21 @@ class Q9FormFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        activity?.let {act->
-            mainActivityViewModel = ViewModelProviders.of(act)
-                .get(mainActivityViewModel::class.java)
+
+        result_btn_q9.setOnClickListener{
+            findNavController().navigate(R.id.action_q9_FormFragment_to_resultActivity)
+
+//            var name = intent.getStringExtra("name")
+//            val nameIntent = Intent(this, ResultActivity::class.java)
+//
+//            nameIntent.putExtra("name", name)
         }
-        setListeners()
+//        setListeners()
     }
 
-    private fun setListeners(){
 
-        
+
+    private fun setListeners(){
         radioGroup = view?.findViewById(R.id.radioGroup9)
         button = view?.findViewById(R.id.result_btn_q9)!!
 
@@ -55,14 +60,9 @@ class Q9FormFragment : Fragment() {
             radioButton = view?.findViewById(selectedOption)!!
             Toast.makeText(context, radioButton.text, Toast.LENGTH_SHORT).show()
 
-            mainActivityViewModel.name.value = name_input_id.text.toString()
 
-//            val name = mainActivityViewModel.name.value ?: ""
-//            val quizIntent = Intent(activity, QuizActivity::class.java)
-//            quizIntent.putExtra(NAME_EXTRA, name)
-//            startActivity(quizIntent)
 
-            findNavController().navigate(R.id.resultFragment)
+            findNavController().navigate(R.id.action_q9_FormFragment_to_resultActivity)
         }
     }
 

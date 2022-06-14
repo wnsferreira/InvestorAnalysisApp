@@ -4,31 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".questionnaire.ResultFragment">
+    tools:context=".ResultActivity">
 
     <TextView
-        android:id="@+id/name_textView_id"
+        android:id="@+id/name_TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="252dp"
-        android:text="Name"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginTop="276dp"
+        android:gravity="center"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        android:hint="Nome"/>
 
     <TextView
-        android:id="@+id/result_analysis_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Investidor"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginStart="120dp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name_textView_id"
-        tools:ignore="MissingConstraints" />
-
+        app:layout_constraintTop_toBottomOf="@+id/name_TextView"
+        app:layout_constraintVertical_bias="0.14"
+        tools:text="Perfil investidor"
+        android:hint="Perfil Investidor"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
