@@ -58,15 +58,15 @@
             android:text="@string/q9_alternative_e" />
     </RadioGroup>
 
-    <Button
-        android:id="@+id/result_btn_q9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:onClick="a"
-        android:text="@string/avancar_btn_q9_text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup9"
-        tools:layout_editor_absoluteX="16dp" />
+<!--    <Button-->
+<!--        android:id="@+id/result_btn_q9"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:onClick="a"-->
+<!--        android:text="@string/avancar_btn_q9_text"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/radioGroup9"-->
+<!--        tools:layout_editor_absoluteX="16dp" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

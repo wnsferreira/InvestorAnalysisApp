@@ -10,12 +10,10 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
-import com.example.investoranalysisapplication.MainViewModel
 import com.example.investoranalysisapplication.R
 
 class Q1_Fragment : Fragment() {
 
-    private lateinit var quizViewModel: MainViewModel
 
     var radioGroup: RadioGroup? = null
     lateinit var radioButton: RadioButton

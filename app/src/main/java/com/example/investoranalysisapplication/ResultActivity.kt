@@ -10,11 +10,12 @@ class ResultActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
-
         var name = intent.getStringExtra("name")
         name_TextView.text = name
 
-    }
+        var profile = intent.getStringExtra("profile")
+        profile_textview_id.text = profile
 
+    }
 
 }
